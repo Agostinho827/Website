@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Individual - [Agostinho Domingos Mussungo ]</title>
+    
+    <!-- 1. Estilo CSS (Devem mover para um ficheiro .css depois) -->
+    <link rel="stylesheet"
+href="index.css">
+    <!-- 2. MathJax para fórmulas matemáticas -->
+    <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>O Meu Projecto de HTML</h1>
+        <p>Disciplina: Computadores no Ensino | Professor: Gerson B Hungulu</p>
+    </header>
+
+    <section>
+        <h2>Sobre o Trabalho</h2>
+        <p>Este site foi desenvolvido para demonstrar competências em estruturação HTML e hospedagem via GitHub Pages.</p>
+        
+        <!-- Exemplo de LaTeX -->
+        <h3>Área Científica (Exemplo de LaTeX)</h3>
+        <p>Abaixo temos a fórmula de arranjos simples:</p>
+        <p>$$ A_{n, p}= \frac{n! } $$</p>
+        <p>Chama-se arranjos simples todos os agrupamentos simples de p elementos que podemos formar com n elementos distintos.Sendo p menor ou igual a n.Cda um desses agrupamentos se diferencia de outro pela ordem ou a natureza.</p>
+    </section>
+
+
+    <section style="text-align: center;">
+        <h2>Informações do aluno</h2>
+        <p> Sou Agostinho Mussungo estudante universitário de ciências da educação, na FCSH apaixonado pela ciência e tecnologia.Actualmente estou aprendendo HTML e vejo que ela é de facto uma ferramenta muito importante. </p>
+        <button id="btnEquipa" class="btn-equipa">Ver dados</button>    
+    </section>
+
+    <!-- Estrutura da Janela Modal -->
+    <div id="modalEquipa" class="modal">
+        <div class="modal-content">
+            <span id="fecharModal" style="float:right; cursor:pointer; font-weight:bold;">&times;</span>
+            <h2>Dados do Autor</h2>
+            <p>Nome: Agostinho Domingos Mussungo</p>
+            <p>Curso:Ensino da Matemática</p>
+            <p>Ano: 4ºAno</p>
+        </div>
+    </div>
+
+    <footer>Obrigado pela visita, volte sempre.</footer>
+
+    <!-- 3. Ligação ao ficheiro JavaScript -->
+    <script src="index.js" defer></script>
+</body>
+</html>
